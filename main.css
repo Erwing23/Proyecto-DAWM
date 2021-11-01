@@ -373,7 +373,7 @@ table {
 }
 
 .footer nav>ul a:not(.btn) {
-  color: #777777;
+  color: #FFFFFF;
   display: block;
   margin-bottom: 3px;
   line-height: 1.6;
@@ -385,12 +385,12 @@ table {
 
 .footer nav>ul a:not(.btn):hover,
 .footer nav>ul a:not(.btn):focus {
-  color: #777777;
+  color: #FFFFFF;
   opacity: 1;
 }
 
 .footer .copyright {
-  color: #777777;
+  color: #FFFFFF;
   padding: 10px 0px;
   font-size: 14px;
   margin: 15px 3px;
@@ -403,7 +403,7 @@ table {
 }
 
 .footer {
-  background-color: #2E2E48;
+  background-color: #3e3e74;
   line-height: 36px;
 }
 
