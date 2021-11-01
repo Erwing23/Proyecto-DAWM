@@ -494,7 +494,32 @@ table {
 .footer .title {
   color: #403D39;
 }
+.register-footer {
+  bottom: 20px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: transparent;
+  color: #FFFFFF;
+}
 
+.register-footer .fa-heart {
+  color: #EB5E28;
+}
+
+.footer .footer-nav,
+  .footer .credits {
+    margin: 0 auto;
+  }
+
+
+  .footer nav.pull-left {
+    float: none !important;
+  }
+  .footer:not(.footer-big) nav>ul li {
+    float: none;
+  }
+  
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
