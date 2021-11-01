@@ -513,13 +513,18 @@ table {
   }
 
 
-  .footer nav.pull-left {
+.footer nav.pull-left {
     float: none !important;
   }
-  .footer:not(.footer-big) nav>ul li {
+
+.footer:not(.footer-big) nav>ul li {
     float: none;
   }
-  
+
+.modal-footer .btn-simple {
+    padding: 15px;
+  }
+
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
