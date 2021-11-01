@@ -524,6 +524,9 @@ table {
 .modal-footer .btn-simple {
     padding: 15px;
   }
+.credits.ml-auto {
+    display: grid;
+}
 
 caption {
   padding-top: 0.5rem;
