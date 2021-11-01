@@ -6625,7 +6625,7 @@ License - nucleoapp.com/license/
   display: flex;
   padding-left: 3%;
   align-items: center;
-  justify-content:flex-start;
+  justify-content:start;
 }
 
 .page-header .filter::after {
@@ -6904,6 +6904,17 @@ License - nucleoapp.com/license/
   padding: 70px 0;
   position: relative;
   background-color: #FFFFFF;
+}
+
+.section-purple {
+  padding: 70px 0;
+  position: relative;
+  background-color: #3c3c58;
+}
+
+.title-purple{
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .section-with-space {
