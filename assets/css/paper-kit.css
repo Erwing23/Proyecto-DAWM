@@ -3377,6 +3377,14 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   width: 18px;
   text-align: center;
 }
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: x-large;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .margin-top {
   margin-top: 50px;
