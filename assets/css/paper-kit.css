@@ -1452,9 +1452,9 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger:not(:disabled):not(.disabled).active,
 .btn-danger:not(:disabled):not(.disabled).active:focus,
 .show>.btn-danger.dropdown-toggle {
-  background-color: #f33816;
+  background-color: #51bcda;
   color: #FFFFFF;
-  border-color: #f33816;
+  border-color: #51bcda;
   box-shadow: none;
 }
 
@@ -3589,7 +3589,7 @@ License - nucleoapp.com/license/
 .nc-icon {
   display: inline-block;
   font: normal normal normal 14px/1 'nucleo-icons';
-  font-size: inherit;
+  font-size:x-large;
   speak: none;
   text-transform: none;
   /* Better Font Rendering */
@@ -4601,7 +4601,7 @@ License - nucleoapp.com/license/
 }
 
 .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-  background: #FFFFFF !important;
+  background: #3c3c58 !important;
 }
 
 .navbar .logo-container {
@@ -5831,12 +5831,12 @@ License - nucleoapp.com/license/
 
 .footer nav>ul a:not(.btn) {
   color: #ffffff;
-  display: block;
+  display: inline-block;
   margin-bottom: 3px;
   line-height: 1.6;
   opacity: .8;
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 600;
 }
 
