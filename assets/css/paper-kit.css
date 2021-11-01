@@ -1459,7 +1459,7 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .btn-danger .caret {
-  border-top-color: #FFFFFF;
+  border-top-color: #8d8080;
 }
 
 .btn-danger.disabled,
@@ -6996,7 +6996,7 @@ License - nucleoapp.com/license/
 .page-header .info-title,
 .carousel-caption .title,
 .carousel-caption .info-title {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 [class*="features-"],
