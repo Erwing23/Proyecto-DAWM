@@ -4464,6 +4464,22 @@ License - nucleoapp.com/license/
   color: #FFFFFF !important;
 }
 
+.title-structure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30%;
+  padding-left: 20%;
+}
+
+.image{
+  text-align: center;
+}
+
+.button-header{
+  margin-top: 20px;
+}
+
 .nav .nav-item .nav-link:hover,
 .nav .nav-item .nav-link:focus {
   background-color: transparent;
@@ -5012,6 +5028,9 @@ License - nucleoapp.com/license/
   background-color: #f7765f;
 }
 
+img{
+  object-fit: fill;
+}
 .img-rounded {
   border-radius: 12px;
   transition: opacity 0.5s ease 0s;
@@ -6631,7 +6650,7 @@ License - nucleoapp.com/license/
   width: 100%;
   z-index: 1;
   display: flex;
-  padding-left: 3%;
+  /*padding-left: 3%;*/
   align-items: center;
   justify-content:start;
 }
@@ -6718,7 +6737,7 @@ License - nucleoapp.com/license/
 .register-background .container {
   margin-top: 11%;
   position: relative;
-  z-index: 3;
+  
 }
 
 .register-footer {
@@ -6793,9 +6812,7 @@ License - nucleoapp.com/license/
 
 .title-brand {
   max-width: 730px;
-  margin: 0 auto;
   position: relative;
-  text-align: center;
   color: #FFFFFF;
   display: block;
 }
@@ -6813,8 +6830,8 @@ License - nucleoapp.com/license/
 }
 
 .presentation-title {
-  font-size: 8em;
-  font-weight: 700;
+  font-size: 86px;
+  font-weight: 600;
   margin: 0;
   color: #FFFFFF;
   background: #fbf8ec;
@@ -7193,6 +7210,8 @@ License - nucleoapp.com/license/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
+ 
   .toggled .bar1 {
     top: 6px;
     -webkit-animation: topbar-x 500ms linear 0s;
@@ -7214,6 +7233,19 @@ License - nucleoapp.com/license/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+  img.img-fluid{
+    inline-size: fit-content;
+  }
+
+  .title-structure{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20%;
+    align-items: center;
+    padding-left: 0%;
+  }
+
   @keyframes topbar-x {
     0% {
       top: 0px;
@@ -8072,6 +8104,13 @@ License - nucleoapp.com/license/
   .lightbox .modal-dialog {
     width: 960px;
   }
+  .title-structure{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0%;
+    padding-left: 20%
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -8082,6 +8121,7 @@ License - nucleoapp.com/license/
   .register-page .page-header .container {
     margin-top: 150px;
   }
+  
 }
 
 @media (max-width: 1023px) and (min-width: 767px) {
@@ -8102,6 +8142,14 @@ License - nucleoapp.com/license/
   }
   .presentation-page .section-cards .codrops-header {
     margin-top: 10px !important;
+  }
+  .title-structure{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20%;
+    padding-left: 0%;
+    align-items: center;
   }
 }
 
