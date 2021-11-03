@@ -1,0 +1,23 @@
+/*Noticias pe*/
+.carta {
+  background-color: #2e2e48;
+}
+p,
+.card-text {
+  color: white !important;
+  font-size: 1rem !important;
+}
+.card-title {
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.flag {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 10px;
+}
+.card-img-top {
+  margin: auto;
+}
