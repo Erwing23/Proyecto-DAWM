@@ -7095,26 +7095,42 @@ img{
   color: #ffffff;
 }
 
-.row-prueba{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "hola hola ."
-      "hola2 hola2 ."
-      ". . .";
+
+.row-prueba  {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "area"; 
   }
-  
-  .hola2 { grid-area: hola2; }
-  
-  .hola { grid-area: hola; }
-  
 
+.area {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr 1.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "titulo buscar"
+      "texto img-new"; 
+    grid-area: area; 
+  }
+  .titulo { grid-area: titulo; }
+  .buscar { grid-area: buscar; }
+  .texto { grid-area: texto; }
+  .img-new { grid-area: img-new; }
 
+.input-group-new{
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 7%;
+}
 
-
+.img-fluid-new{
+  margin: 30px 0px;
+}
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
