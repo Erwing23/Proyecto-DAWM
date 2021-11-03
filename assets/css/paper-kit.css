@@ -3605,6 +3605,8 @@ License - nucleoapp.com/license/
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 /*------------------------
   change icon size
 -------------------------*/
@@ -7076,6 +7078,43 @@ img{
 .section-login {
   min-height: 700px;
 }
+
+/*------------------------
+  Seccion noticias
+-------------------------*/
+
+.presentation-title-new {
+  font-size: 86px;
+  font-weight: 600;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.presentation-subtitle-new {
+  font-size: 1.7em;
+  color: #ffffff;
+}
+
+.row-prueba{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "hola hola ."
+      "hola2 hola2 ."
+      ". . .";
+  }
+  
+  .hola2 { grid-area: hola2; }
+  
+  .hola { grid-area: hola; }
+  
+
+
+
+
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
