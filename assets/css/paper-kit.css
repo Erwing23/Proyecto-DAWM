@@ -7078,7 +7078,16 @@ img{
 .section-login {
   min-height: 700px;
 }
+.content-map{
+  margin-top: 45px;
+  padding-left: 5%;
+}
 
+.map{
+  width: 100%;
+  height: 300px;
+  border-style: none;
+}
 /*------------------------
   Seccion noticias
 -------------------------*/
