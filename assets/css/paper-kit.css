@@ -2166,6 +2166,13 @@ fieldset[disabled] .btn-neutral.active {
   padding: 7px 18px;
 }
 
+.btn-link-log {
+  border-color: transparent !important;
+  color: #3c3c58;
+  padding: 7px 0px;
+}
+
+
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
@@ -2455,7 +2462,9 @@ textarea.form-control {
 }
 
 .register-form .form-control {
-  border: 1px solid transparent !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .register-form .input-group .form-control {
@@ -5982,7 +5991,6 @@ img{
 
 .card {
   border-radius: 12px;
-  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
   background-color: #FFFFFF;
   color: #333333;
   margin-bottom: 20px;
@@ -6006,8 +6014,7 @@ img{
 
 .card.no-transition:hover,
 .card.page-carousel:hover,
-.card.card-refine:hover,
-.card.card-register:hover {
+.card.card-refine:hover {
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
   transform: none;
   -webkit-transform: none;
@@ -6566,13 +6573,17 @@ img{
 }
 
 .card-register {
-  background-color: #FF8F5E;
-  border-radius: 8px;
-  color: #fff;
-  max-width: 350px;
-  margin: 20px 0 70px;
+  color: #3b5998;
+  padding: 5%;
+  margin: 50px 0 70px;
   min-height: 400px;
-  padding: 30px;
+}
+
+.card-register-new {
+  color: #3b5998;
+  padding: 5%;
+  margin: 0px 0 70px;
+  min-height: 400px;
 }
 
 .card-register label {
@@ -7115,6 +7126,15 @@ img{
 .item{
   padding-left: 5%;
 }
+
+.title-log {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+  font-weight: bold;
+  color: #3c3c58;
+}
+
 /*------------------------
   Seccion noticias
 -------------------------*/
