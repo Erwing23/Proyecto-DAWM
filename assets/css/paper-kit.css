@@ -4555,7 +4555,7 @@ License - nucleoapp.com/license/
 }
 
 .navbar .navbar-nav .nav-item .btn i {
-  color: #FFFFFF;
+  color: #FFfFFF;
 }
 
 .navbar .navbar-collapse .nav-item .nav-link p {
@@ -4704,7 +4704,7 @@ License - nucleoapp.com/license/
 [class*="bg"] .navbar-nav .nav-item .nav-link:hover,
 [class*="bg"] .navbar-nav .nav-item .nav-link:focus {
   background-color: transparent;
-  color: #FFFFFF;
+  color: #9696d8;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -7078,6 +7078,12 @@ img{
 .section-login {
   min-height: 700px;
 }
+
+.subtitulo-feature{
+  font-weight: bold;
+  color: #3c3c58;
+}
+
 .content-map{
   margin-top: 45px;
   padding-left: 5%;
@@ -7085,7 +7091,7 @@ img{
 
 .map{
   width: 100%;
-  height: 300px;
+  height: 270px;
   border-style: none;
 }
 
@@ -7094,6 +7100,20 @@ img{
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   grid-gap: 10px;
+}
+
+.info-contac{
+  display: grid;
+  grid-gap: 10px;
+  padding-bottom: 5%;
+}
+
+.item-contac{
+  display: flex;
+}
+
+.item{
+  padding-left: 5%;
 }
 /*------------------------
   Seccion noticias
@@ -7118,13 +7138,14 @@ img{
     gap: 0px 0px; 
     grid-template-areas: 
       "area"; 
+    padding-top: 7.5%;
   }
 
 .area {
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1.3fr 0.7fr; 
     grid-template-rows: 0.5fr 1.5fr; 
-    gap: 0px 0px; 
+    gap: 0% 5%; 
     grid-template-areas: 
       "titulo buscar"
       "texto img-new"; 
@@ -7137,10 +7158,9 @@ img{
 
 .input-group-new{
     display: flex;
-    display: -ms-flexbox;
     flex-wrap: wrap;
     align-items: stretch;
-    padding: 7%;
+    place-self: center;
 }
 
 .img-fluid-new{
