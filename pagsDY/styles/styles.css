@@ -99,6 +99,9 @@ li:first-child span{
     
 }
 
+li:nth-child(2){
+    background-color: #7E73FF;
+}
 nav:hover{
     width: 12rem;
 }
@@ -121,6 +124,7 @@ main{
 .ContainerMain{
     grid-column: 1;
     margin-top: 10vh;
+    max-width: 100%;
 }
 .ContainerPreview{
     grid-column: 2;
@@ -160,7 +164,9 @@ button:hover{
     
     
 }
-
+.ContOptions a:first-child button{
+    background-color:  #444468;
+}
 
 .ContainerPreview{
     display: flex;
@@ -185,9 +191,13 @@ button:hover{
     justify-content: space-between;
     margin: 2rem auto ;
 }
-.ContOptions button{
-    width: 40%;
+.ContOptions a{
+    width: 100%;
+    text-align: center;
     
+}
+.ContOptions a > button{
+    width: 80%;
 }
 .ButtonOptions{
     width: 40%;
@@ -200,6 +210,7 @@ button:hover{
 }
 
 .ScrollableContent{
+    max-width: 100%;
     margin-top: 5vh;
     height: 63vh;
     overflow: scroll;
