@@ -1,0 +1,14 @@
+.ControlIcons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px
+}
+.ControlIcons img{
+    height: 45px;
+    width: 45px
+}
+a{
+    color: #2e2e48; 
+    font-weight: 500;
+  padding-left: 0.5rem;
+}
