@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.bucket {
+  background-image: url("../../pagsDY/media/wallpaper3.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25vw;
+}
+
+.bucketLinks {
+  color: white;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  width: 50vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bucketLinks img {
+  width: 8vw;
+}
+.bucketLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2e2e48;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 25%;
+  cursor: pointer;
+}
