@@ -17,7 +17,6 @@
  - Bug fixes for responsive devices
  - Change versions on CSS and JS files
  - Small changes for components
- 
 
 ## [2.0.1] 2017-08-27
 ### Bug Fixing
