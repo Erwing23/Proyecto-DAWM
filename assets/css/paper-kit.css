@@ -4479,7 +4479,7 @@ License - nucleoapp.com/license/
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 30%;
+  margin-top: 20%;
   padding-left: 20%;
 }
 
@@ -6365,7 +6365,6 @@ img{
   background-size: cover;
   text-align: center;
 }
-
 .card[data-background="image"] .card-body {
   position: relative;
   z-index: 2;
@@ -6843,7 +6842,7 @@ img{
 }
 
 .presentation-title {
-  font-size: 86px;
+  font-size: 80px;
   font-weight: 600;
   margin: 0;
   color: #FFFFFF;
@@ -8277,7 +8276,7 @@ img{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 0%;
+    margin-top: 21%;
     padding-left: 20%
   }
 }
