@@ -1,47 +1,41 @@
-
-
-
-.ContOptions a:nth-child(1) button{
-    background-color: #2E2E48;
+.ContOptions a:nth-child(1) button {
+  background-color: #2e2e48;
 }
 
-.ContOptions a:nth-child(1) button:hover{
-    background-color: #444468;
+.ContOptions a:nth-child(1) button:hover {
+  background-color: #444468;
 }
 
-.ContOptions a:nth-child(2) button{
-    background-color:  #444468;
+.ContOptions a:nth-child(2) button {
+  background-color: #444468;
 }
-
-
 
 .BackgroundContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0px 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 5vw;
 }
 
-
-
-.ContainerWallpaper{
-    margin: 10px auto;
-    width: 150px;
-    height: 300px;
-    background-image: url("/media/CellBase.png");
-    background-size: 150px 300px ;
+.ContainerWallpaper {
+  margin: 10px auto;
+  width: 150px;
+  height: 300px;
+  background-image: url("/media/CellBase.png");
+  background-size: 150px 300px;
+  cursor: pointer;
 }
 
-.ContainerWallpaper button img{
-    border-radius: 30px;
-    width: 98%;
-    height: 98%;
+.ContainerWallpaper button img {
+  border-radius: 30px;
+  width: 98%;
+  height: 98%;
 }
 
-.fondoWallpaper{
-    all: initial;
-    position: relative;
-    width: 150px;
-    height: 300px;
-    z-index: -10000;
+.fondoWallpaper {
+  all: initial;
+  position: relative;
+  width: 150px;
+  height: 300px;
+  z-index: -10000;
 }
