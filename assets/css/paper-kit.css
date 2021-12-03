@@ -6365,7 +6365,6 @@ img{
   background-size: cover;
   text-align: center;
 }
-
 .card[data-background="image"] .card-body {
   position: relative;
   z-index: 2;
