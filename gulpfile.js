@@ -13,6 +13,7 @@ var Paths = {
   SCSS: './assets/scss/**/**'
 };
 
+
 gulp.task('compile-scss', function() {
   return gulp.src(Paths.SCSS_TOOLKIT_SOURCES)
     .pipe(sourcemaps.init())
