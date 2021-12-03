@@ -1,0 +1,30 @@
+a{
+    color: #2e2e48; 
+    font-weight: 500;
+  padding-left: 0.5rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr !important;
+}
+
+.DraggableSection img{
+    margin-left: 30%;
+    margin-top: 30%;
+    
+    
+}
+
+.ContainerPreview{
+    display: none;
+}
+.LinkInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.LinkOptions{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
